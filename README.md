@@ -103,7 +103,7 @@ API providers may charge separately for usage. A ChatGPT subscription or Codex c
 4. Choose your language and Workspace in **Assistant**.
 5. Save your settings and try a short conversation.
 
-Use **User guide (FR)** in Settings for the complete French user guide.
+Use **User guide** in Settings for the complete French user guide.
 
 ---
 
