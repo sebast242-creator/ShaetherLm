@@ -1,89 +1,110 @@
-ShaetherLm — Local AI Workspace for Windows
+# ShaetherLm — Local AI Workspace for Windows
 
-© Séb · Multilingual conversations
+**Local models · Cloud APIs · Multilingual conversations**
 
-ShaetherLm is an AI workspace built with Python and Tkinter. It brings together conversation, coding tools, documents, voice, and persistent context in a desktop application designed primarily for local use.
+© Séb
 
-Run local models with Ollama or BeeLlama, access Ollama Cloud, or connect OpenAI, Anthropic, and compatible API providers. Switch models and providers through the application’s settings.
+ShaetherLm is an AI workspace built with Python and Tkinter. It brings together conversation, coding tools, documents, voice, and continuity memory in a desktop application designed primarily for local use.
 
-Features
+Run models with **Ollama** or **BeeLlama**, access **Ollama Cloud**, or connect **OpenAI**, **Anthropic**, and **compatible API providers**. Choose your model and provider through the application’s settings.
 
-Rich conversations with Markdown, code, and LaTeX equations.
+## Features
 
-Agent mode for tasks spanning multiple steps, with no fixed step limit and a STOP control.
+- **Rich conversations** with Markdown, code, and LaTeX equations.
+- **Agent mode** for tasks spanning multiple steps, with no fixed step limit and a STOP control.
+- **Conversation library** for jumping directly to earlier messages.
+- **Web search** through DuckDuckGo, Brave, or Ollama Web.
+- **Document tools** for reading PDF, Word (`.docx`), and Excel (`.xlsx`) files, and creating PDFs.
+- **Targeted reading** of large text files and PDFs to keep context manageable.
+- **Coding tools** for precise patches, terminal commands, and Python execution.
+- **Image analysis** through Groq, with configurable vision models.
+- **Voice input** through Groq Whisper.
+- **Read-aloud responses** through Edge TTS, with pause, resume, and optional text following.
+- **Context management** with concise tool results, manual compression, and automatic cleaning from 93% usage.
+- **Continuity memory and checkpoints** to help resume ongoing work.
+- **Optional n8n integration** for workflows and asynchronous results.
+- **Mood Pulse**, an animated mandala controlled by the model.
 
-Conversation library for jumping directly to earlier messages.
+## Supported Providers
 
-Web search through DuckDuckGo, Brave, or Ollama Web.
+| Provider | Usage |
+| --- | --- |
+| Ollama | Local models and Ollama Cloud |
+| BeeLlama | Local inference |
+| OpenAI | Models accessed through the Responses API |
+| Anthropic | Models accessed through the native Claude API |
+| Compatible API | Servers supporting the Chat Completions protocol |
 
-Document tools for reading PDF, Word (.docx), and Excel (.xlsx) files, and creating PDFs.
+Models and online service access are configured separately. Tool support and available capabilities depend on the selected model.
 
-Targeted reading of large text files and PDFs to keep context manageable.
+## Built-in AI Tools
 
-Coding tools for precise patches, terminal commands, and Python execution.
+ShaetherLm provides **16 built-in tools**, plus a **17th tool when n8n is enabled and at least one workflow is authorized**.
 
-Image analysis through Groq, with configurable vision models.
+| Category | Tools |
+| --- | --- |
+| Files | `list_files`, `read_file`, `write_file`, `search_in_files` |
+| Coding and execution | `apply_patch`, `run_command`, `python_exec` |
+| Documents | `read_pdf`, `read_docx`, `read_excel`, `create_pdf` |
+| Web | `web_search`, `web_fetch` |
+| Vision | `see_image` |
+| Calculation and time | `calculate`, `get_datetime` |
+| Optional automation | `n8n_run_workflow` |
 
-Voice input through Groq Whisper.
+Mood Pulse, voice, and context management are additional application features, not tools counted in this list.
 
-Read-aloud responses through Edge TTS, with pause, resume, and optional text following.
+### External Transcription Utility
 
-Context management with concise tool results, manual compression, and automatic cleaning from 93% usage.
+A separate transcription utility supports **YouTube and Odysee**, using available subtitles or audio transcription where supported.
 
-Continuity memory and checkpoints to help resume ongoing work.
+This utility is separate from the main application and is not included in the built-in tool count.
 
-Optional n8n integration for workflows and asynchronous results.
-
-Built-in AI tools
-
-ShaetherLm provides 16 built-in tools, plus a 17th tool when n8n is enabled and at least one workflow is authorized.
-
-Category
-
-Tools
-
-Files
-
-list_files, read_file, write_file, search_in_files
-
-Coding and execution
-
-apply_patch, run_command, python_exec
-
-Documents
-
-read_pdf, read_docx, read_excel, create_pdf
-
-Web
-
-web_search, web_fetch
-
-Vision
-
-see_image
-
-Calculation and time
-
-calculate, get_datetime
-
-Optional automation
-
-n8n_run_workflow
-
-External utilities are not included in this count. A separate transcription utility supports YouTube and Odysee, using available subtitles or audio transcription where supported.
-
-Mood Pulse
+## Mood Pulse
 
 Mood Pulse lets the model express an emotional tone through an animated mandala, controlling its shape, colors, rhythm, and movement alongside the conversation.
 
-It is an optional visual expression generated by the model—not a measurement of feelings or consciousness.
+During longer tasks, the animation responds to the progression of the model’s work. You can enable or disable it from the main window.
 
-Your workspace, your controls
+Mood Pulse is an optional visual expression generated by the model, not a measurement of feelings or consciousness.
 
-File tools check Workspace boundaries. Terminal commands have configurable approval modes, timeouts, output limits, and execution logs. Targeted patches and file writes use atomic replacement to reduce the risk of incomplete writes.
+## Workspace and Execution Controls
 
-Python and executed programs are not sandboxed: they retain your Windows account’s permissions.
+File tools check Workspace boundaries. Terminal commands have configurable approval modes, timeouts, output limits, and execution logs.
 
-Local models run on your machine. Cloud models and online services receive the data required for their tasks and may involve separate fees.
+Choose the level of terminal approval that fits your work:
 
-The goal: a flexible AI assistant for conversation and practical work, with a choice of models, useful continuity, and clear controls over tools and automation.
+- **Always ask**
+- **Automatically allow safe commands**
+- **Workspace autonomous mode**
+
+Targeted patches and file writes use atomic replacement to reduce the risk of incomplete writes. STOP lets you interrupt ongoing work.
+
+> **Execution boundaries:** Python and executed programs are not sandboxed. They retain your Windows account’s permissions. Keep backups of important files and review significant changes.
+
+## Local and Online Processing
+
+Local models run on your computer. Cloud models and online services receive the data required for their tasks.
+
+Depending on your configuration, online services may be used for:
+
+- Cloud conversations and API models
+- Web searches
+- Image analysis and speech recognition
+- Text-to-speech
+- n8n workflows
+
+API providers may charge separately for usage. A ChatGPT subscription or Codex credits do not cover OpenAI API calls made by ShaetherLm.
+
+## Getting Started
+
+1. Open **Settings > Connection** and choose your provider.
+2. Configure its connection or API credentials as needed.
+3. Select your model in **Model**.
+4. Choose your language and Workspace in **Assistant**.
+5. Save your settings and try a short conversation.
+
+Use **User guide (FR)** in Settings for the complete French user guide.
+
+---
+
+**The goal:** a flexible AI assistant for conversation and practical work, with a choice of models, useful continuity, and clear controls over tools and automation.
