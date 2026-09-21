@@ -2,7 +2,7 @@
 
 **Local models · Cloud APIs · Multilingual conversations**
 
-© Séb
+**© Sébast242    sebast242@gmail.com**
 
 ShaetherLm is an AI workspace built with Python and Tkinter. It brings together conversation, coding tools, documents, voice, and continuity memory in a desktop application designed primarily for local use.
 
