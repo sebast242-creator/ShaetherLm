@@ -40,7 +40,7 @@ with optional donations. The unmodified official EXE may be redistributed
 free of charge under the accompanying license. Source code remains private.
 Third-party components retain their own licenses.
 
-See [the supplied license](LICENSE_SHAETHERLM_FR.txt).
+Licenses: [English translation](LICENSE_SHAETHERLM_EN.txt) · [French original](LICENSE_SHAETHERLM_FR.txt).
 
 ---
 
@@ -49,9 +49,9 @@ See [the supplied license](LICENSE_SHAETHERLM_FR.txt).
 - Choose the version tag `v1.0.0` and the release title `ShaetherLM 1.0`.
 - Select and test the final EXE intended for distribution.
 - Include the license and required third-party notices with the downloadable package.
-- Replace the old screenshots with the new collection; review visible personal information.
+- Add the new screenshot collection; review visible personal information.
 - Add the demonstration video.
-- Replace the existing FR/EN guides with their updated editions.
+- Add the updated FR/EN guides.
 - Check the README links and remove its release-preparation notice only when download is available.
 - Connect the application's Check for updates button to the official release page.
 - Finish the existing GitHub draft Release, upload the intended files, and verify downloads.

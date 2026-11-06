@@ -68,9 +68,7 @@ Results depend on your model and configured tools. Review important outputs.
 
 ## See ShaetherLM in action
 
-A new screenshot collection and a demonstration video are being prepared.
-They will show the interface, an agent completing a task, voice playback,
-and memory management.
+New screenshots and a demonstration video are coming soon.
 
 ## Quick start
 
@@ -80,14 +78,8 @@ and memory management.
 4. Enable **Agent** for a task involving several steps.
 5. Open **Memory** to manage checkpoints and long-term memories.
 
-English and French guides are available in **Settings** and here:
-
-- [English guide (PDF)](ShaetherLm_V1_Guide_EN.pdf)
-- [Guide français (PDF)](ShaetherLm_V1_Guide_FR.pdf)
-
-These are the existing editions; updated guides are being prepared to cover
-the latest features, including long-term memory. The new guides will lead
-with practical examples and keep technical details at the end.
+Updated English and French guides are being prepared for version 1.0.
+They will focus on practical examples, with technical details at the end.
 
 ## Runs on
 
