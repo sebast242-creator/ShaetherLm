@@ -55,7 +55,7 @@ Les fournisseurs de ces services peuvent appliquer leurs propres limitations, co
 6. Dons facultatifs
 ShaetherLm est entièrement gratuit.
 
-Les dons effectués notamment par l'intermédiaire du lien PayPal présent dans les paramètres sont strictement facultatifs.
+Les dons effectués notamment par l'intermédiaire du lien Ko-fi présent dans les paramètres sont strictement facultatifs.
 
 Ils ne constituent ni un achat de licence, ni une obligation pour accéder aux fonctionnalités du Logiciel, ni une acquisition de droits sur le code source.
 
