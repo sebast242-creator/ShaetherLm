@@ -1,0 +1,92 @@
+SHAETHERLM — PROPRIETARY FREEWARE LICENSE
+Version 1.0 — November 6, 2026
+
+English translation of LICENSE_SHAETHERLM_FR.txt.
+
+Copyright © 2026 — Sébast242
+
+All rights reserved in the original elements of ShaetherLm.
+
+1. Purpose
+ShaetherLm (the “Software”) is an application distributed free of charge in executable form, without making its source code available.
+
+This license sets out the conditions for using and redistributing the original elements of the Software. It does not alter the rights and licenses applicable to third-party components.
+
+2. Right to use
+Subject to compliance with this license, the rights holder grants each user a free, non-exclusive, worldwide authorization, with no predefined time limit, to use ShaetherLm for personal or professional purposes on computers of their choice.
+
+Copies necessary for lawful use and backup copies permitted by law are allowed.
+
+No payment, subscription, or donation is required to use the Software.
+
+3. Free redistribution permitted
+Anyone is authorized to copy and redistribute the official ShaetherLm executable free of charge, including to friends and family or through download platforms, subject to the following conditions:
+
+The executable must remain strictly identical to the official version, without any modification of its contents. Including it in a ZIP archive is permitted.
+
+Redistribution must be entirely free of charge, without any purchase, subscription, or payment requirement.
+
+The ShaetherLm name and copyright notices must not be removed or falsified.
+
+This license must accompany the executable, together with third-party notices where required.
+
+No redistributor may claim to be the author or official distributor of ShaetherLm without authorization.
+
+Reselling the Software, including it in a paid offering, or charging for access to it requires separate authorization from the rights holder, subject to mandatory legal provisions.
+
+4. Source code and intellectual property
+The source code of ShaetherLm remains private and is not provided under this license.
+
+Distributing the Software free of charge does not constitute an open-source release or a waiver of intellectual property rights.
+
+Unless prior written authorization has been granted, redistributing modified versions, publishing the original source code without authorization, and removing intellectual property notices are not permitted.
+
+These restrictions do not affect rights expressly granted by law, including rights to make backups, observe, study, test, and decompile for interoperability purposes under the conditions of Article L.122-6-1 of the French Intellectual Property Code.
+
+All rights not expressly granted remain reserved to their respective holders, subject to statutory exceptions.
+
+5. Third-party components and services
+ShaetherLm may use or incorporate libraries, models, tools, and services developed by third parties.
+
+These elements remain subject to their own licenses and terms of use, which continue to apply independently of this license.
+
+Some features may require an Internet connection, an external account, or personal API keys.
+
+Service providers may apply their own limitations, pricing terms, and privacy policies.
+
+6. Optional donations
+ShaetherLm is entirely free of charge.
+
+Donations, including those made through the PayPal link in Settings, are strictly optional.
+
+They do not constitute a license purchase, a requirement for access to the Software's features, or the acquisition of any rights to the source code.
+
+7. No contractual warranty
+ShaetherLm is provided free of charge “as is”.
+
+To the extent permitted by applicable law, no contractual warranty is given regarding freedom from errors, uninterrupted operation, compatibility with all equipment, or fitness for a particular purpose.
+
+Users are responsible for taking reasonable precautions necessary for their use of the Software, including backing up their data and protecting their API keys.
+
+This clause does not deprive users of any mandatory rights or warranties provided by law.
+
+8. Liability
+To the extent permitted by law, the rights holder shall not be liable for damage arising from the use of, or inability to use, the Software where such liability may lawfully be excluded.
+
+Nothing in this license limits any liability whose exclusion is prohibited by applicable law.
+
+9. Non-compliance with the license
+Failure to comply with these conditions may result in termination of the authorizations granted to the user concerned.
+
+This provision does not affect any rights granted to that user by law independently of this license.
+
+10. Governing law
+This license is governed by French law, subject to applicable mandatory provisions, including those relating to consumer protection and the rights of software users.
+
+ShaetherLm — Proprietary freeware
+
+Free use · Free redistribution of the unmodified official EXE · Private source code · Optional donations
+
+Copyright © 2026 — Sébast242
+
+All rights reserved.
