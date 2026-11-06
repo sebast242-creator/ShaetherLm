@@ -24,6 +24,14 @@ your assistant a task.
 - A dark interface with metallic controls, a retractable conversation library,
   and optional Mood Pulse.
 
+## Settings and comfort
+
+- Context and response sliders for local engines and API profiles.
+- The selected response budget applies in both normal chat and Agent mode.
+- First-launch defaults: 90K context, automatic context cleaning and completion
+  sounds enabled, Workspace autonomous command approval.
+- Ko-fi support link and access to the official GitHub release page in Settings.
+
 ## Before you start
 
 - Windows 10/11.
@@ -53,7 +61,7 @@ Licenses: [English translation](LICENSE_SHAETHERLM_EN.txt) · [French original](
 - Add the demonstration video.
 - Add the updated FR/EN guides.
 - Check the README links and remove its release-preparation notice only when download is available.
-- Connect the application's Check for updates button to the official release page.
+- Verify the application's Check for updates link after the repository becomes public.
 - Finish the existing GitHub draft Release, upload the intended files, and verify downloads.
 - Review repository contents and history before making the repository public.
 - Prepare the Hugging Face static Space with links to the official GitHub download.
