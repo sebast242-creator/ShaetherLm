@@ -7,7 +7,7 @@
 > **Release preparation:** version 1.0 is being prepared for public distribution.
 > The EXE is not available in a published Release yet.
 
-[Getting started](#quick-start) · [Versions and downloads](https://github.com/sebast242-creator/ShaetherLm/releases) · [License](LICENSE_SHAETHERLM_FR.txt)
+[Getting started](#quick-start) · [Versions and downloads](https://github.com/sebast242-creator/ShaetherLm/releases) · [License](#license)
 
 ShaetherLM is a desktop AI workspace for Windows: a conversation, a full set of
 working tools, and a memory that survives the session — all built to run on your
@@ -171,4 +171,7 @@ You may share the unmodified official EXE free of charge, together with its
 license and any required third-party notices. Third-party components retain
 their own licenses and terms.
 
-See [the full license](LICENSE_SHAETHERLM_FR.txt) for the conditions of use and redistribution.
+Read the full conditions of use and redistribution:
+
+- [English translation](LICENSE_SHAETHERLM_EN.txt)
+- [Original French license](LICENSE_SHAETHERLM_FR.txt)
