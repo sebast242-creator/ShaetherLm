@@ -1,110 +1,174 @@
-# ShaetherLm — Local AI Workspace for Windows
+# ShaetherLM
 
-**Local models · Cloud APIs · Multilingual conversations**
+**Your assistant. Your machine. Your files.**
 
-**© Sébast242    ShaetherLm@gmail.com**
+**Free Windows application · No installation required · Local models and cloud APIs**
 
-ShaetherLm is an AI workspace built with Python and Tkinter. It brings together conversation, coding tools, documents, voice, and continuity memory in a desktop application designed primarily for local use.
+> **Release preparation:** version 1.0 is being prepared for public distribution.
+> The EXE is not available in a published Release yet.
 
-Run models with **Ollama** or **BeeLlama**, access **Ollama Cloud**, or connect **OpenAI**, **Anthropic**, and **compatible API providers**. Choose your model and provider through the application’s settings.
+[Getting started](#quick-start) · [Versions and downloads](https://github.com/sebast242-creator/ShaetherLm/releases) · [License](LICENSE_SHAETHERLM_FR.txt)
 
-## Features
+ShaetherLM is a desktop AI workspace for Windows: a conversation, a full set of
+working tools, and a memory that survives the session — all built to run on your
+own hardware, with local models by default.
 
-- **Rich conversations** with Markdown, code, and LaTeX equations.
-- **Agent mode** for tasks spanning multiple steps, with no fixed step limit and a STOP control.
-- **Conversation library** for jumping directly to earlier messages.
-- **Web search** through DuckDuckGo, Brave, or Ollama Web.
-- **Document tools** for reading PDF, Word (`.docx`), and Excel (`.xlsx`) files, and creating PDFs.
-- **Targeted reading** of large text files and PDFs to keep context manageable.
-- **Coding tools** for precise patches, terminal commands, and Python execution.
-- **Image analysis** through Groq, with configurable vision models.
-- **Voice input** through Groq Whisper.
-- **Read-aloud responses** through Edge TTS, with pause, resume, and optional text following.
-- **Context management** with concise tool results, manual compression, and automatic cleaning from 93% usage.
-- **Continuity memory and checkpoints** to help resume ongoing work.
-- **Optional n8n integration** for workflows and asynchronous results.
-- **Mood Pulse**, an animated mandala controlled by the model.
+Give your assistant a real task: understand a document, improve a project,
+research a subject, or automate a routine. It can work with files, use tools,
+and help you pick up where you left off — in a dark interface designed for
+everyday use, with voice playback and clear controls.
 
-## Supported Providers
+## What it does
 
-| Provider | Usage |
+**Talks** — Markdown, code, math. Optional voice input (Groq STT) and
+read-aloud responses (Edge TTS) with text following.
+
+**Works** — 17 integrated tools: PDF/Word/Excel reading, PDF creation, web search
+and fetching, image analysis, Python execution, targeted code patches, and a
+terminal with real exit codes. Agent mode chains these into multi-step work
+with no preset step limit.
+
+Send a clarification while the agent works: it reaches the model at the next
+available turn. **STOP** stays within reach. Targeted file searches, paginated
+reading, and focused patches help the agent work without loading an entire
+project into the conversation.
+
+**Remembers** — manual or automatic context cleaning, continuity checkpoints,
+and optional **long-term memory** stored locally. Search, review, correct, or
+pin essential memories in **Memory**. Memories retain links to their sources.
+Forgetting excludes a memory from recall; its source history stays on disk.
+
+At startup, **Ask** lets you choose independently whether to resume the saved
+conversation and use long-term memory. **Automatic** and **Never** are also
+available. Continuity helps preserve ongoing work; it does not promise perfect recall.
+
+**Shows** — Mood Pulse: an animated mandala whose shape, colour and rhythm
+the model steers alongside the conversation. Optional, decorative, and honest
+about what it is: a model-generated visual expression, not a measurement of
+feelings or consciousness.
+
+**Feels comfortable** — textured metal buttons, illuminated indicators,
+clickable web and local-file links, and a retractable conversation library.
+Right-click a response to copy it or start reading aloud from a chosen passage.
+Listen can remain ready for subsequent responses during agent work, with
+follow and pause controls. **Display** lets you show or hide details; only
+**Thoughts** is enabled by default among its optional categories.
+
+## Try it with a real task
+
+> “Read this document and explain its main points. Mark anything uncertain.”
+
+> “Find the relevant files in this project, make a focused correction, and verify it.”
+
+> “Resume our work from the latest checkpoint. Check the current files first.”
+
+> “Remember this preference for future sessions.”
+
+Results depend on your model and configured tools. Review important outputs.
+
+## See ShaetherLM in action
+
+A new screenshot collection and a demonstration video are being prepared.
+They will show the interface, an agent completing a task, voice playback,
+and memory management.
+
+## Quick start
+
+1. Once the public release is available, download and launch the official EXE — no application installation required. Open **Settings → Connection** and select your engine or API provider.
+2. Configure your model, choose a **Workspace** folder, and save.
+3. Start a conversation or attach a document.
+4. Enable **Agent** for a task involving several steps.
+5. Open **Memory** to manage checkpoints and long-term memories.
+
+English and French guides are available in **Settings** and here:
+
+- [English guide (PDF)](ShaetherLm_V1_Guide_EN.pdf)
+- [Guide français (PDF)](ShaetherLm_V1_Guide_FR.pdf)
+
+These are the existing editions; updated guides are being prepared to cover
+the latest features, including long-term memory. The new guides will lead
+with practical examples and keep technical details at the end.
+
+## Runs on
+
+| Engine | Notes |
 | --- | --- |
-| Ollama | Local models and Ollama Cloud |
-| BeeLlama | Local inference |
-| OpenAI | Models accessed through the Responses API |
-| Anthropic | Models accessed through the native Claude API |
-| Compatible API | Servers supporting the Chat Completions protocol |
+| **Ollama** | Local models and Ollama Cloud |
+| **BeeLlama** | Self-contained local server (reference setup: Qwen3.8-27B) |
+| **OpenAI / Anthropic / compatible API** | Remote model, tools still run on your machine |
 
-Models and online service access are configured separately. Tool support and available capabilities depend on the selected model.
+Choose one in Settings. Local models and API keys are yours to configure;
+they are not bundled.
 
-## Built-in AI Tools
+## Requirements
 
-ShaetherLm provides **16 built-in tools**, plus a **17th tool when n8n is enabled and at least one workflow is authorized**.
+- Windows 10/11. **No installation is required for ShaetherLM**: launch the EXE directly.
+  No separate Python installation is needed to launch the application. External
+  engines, scripts, and tools may require their own setup or runtimes.
+- Local hardware requirements depend on the model, quantization, and context size.
+- One working engine (Ollama or BeeLlama) or an API key.
+- Optional: a Groq key for image analysis and voice input.
 
-| Category | Tools |
+## Built-in tools
+
+**17 integrated tools**, plus one optional n8n tool when enabled and an
+authorized workflow is available. Some tools require service credentials.
+
+| Purpose | Tools |
 | --- | --- |
 | Files | `list_files`, `read_file`, `write_file`, `search_in_files` |
-| Coding and execution | `apply_patch`, `run_command`, `python_exec` |
+| Code and execution | `apply_patch`, `run_command`, `python_exec` |
 | Documents | `read_pdf`, `read_docx`, `read_excel`, `create_pdf` |
 | Web | `web_search`, `web_fetch` |
-| Vision | `see_image` |
-| Calculation and time | `calculate`, `get_datetime` |
+| Images | `see_image` |
+| Calculation and date | `calculate`, `get_datetime` |
+| Long-term memory | `long_term_memory` |
 | Optional automation | `n8n_run_workflow` |
 
-Mood Pulse, voice, and context management are additional application features, not tools counted in this list.
+## Privacy and execution controls
 
-### External Transcription Utility
+The interface, the Workspace, the file tools, and local engines stay on your
+computer. What leaves: conversations with cloud/API models, web searches,
+image/dictation requests to Groq, TTS synthesis, and n8n workflows when enabled.
+Memory extraction uses your selected backend: with a remote model, relevant
+source excerpts are sent to that provider. Saved API keys are protected using
+your Windows account.
 
-A separate transcription utility supports **YouTube and Odysee**, using available subtitles or audio transcription where supported.
+Command approval modes range from **Always ask** to **Workspace autonomous mode**.
+Path checks, execution records, and STOP controls provide application-level
+safeguards. Executed programs retain your Windows account permissions:
+the Workspace is **not an operating-system sandbox**.
 
-This utility is separate from the main application and is not included in the built-in tool count.
+## Notes
 
-## Mood Pulse
+- A separate standalone utility handles YouTube/Odysee transcription; it is
+  not part of the core application.
+- **n8n** integration is optional and off until enabled.
+- Music creation with **AetherStrudel** is an example of an external tool setup,
+  not a bundled feature of ShaetherLM.
 
-Mood Pulse lets the model express an emotional tone through an animated mandala, controlling its shape, colors, rhythm, and movement alongside the conversation.
+## Status
 
-During longer tasks, the animation responds to the progression of the model’s work. You can enable or disable it from the main window.
+**Version 1.0** · README updated November 6, 2026.
 
-Mood Pulse is an optional visual expression generated by the model, not a measurement of feelings or consciousness.
+## Support the project
 
-## Workspace and Execution Controls
+If ShaetherLM is useful to you, you can support its development with a
+voluntary donation: **[Donate with PayPal](https://www.paypal.com/qrcodes/p2pqrc/J65DSN5ZLF7XL)**.
 
-File tools check Workspace boundaries. Terminal commands have configurable approval modes, timeouts, output limits, and execution logs.
-
-Choose the level of terminal approval that fits your work:
-
-- **Always ask**
-- **Automatically allow safe commands**
-- **Workspace autonomous mode**
-
-Targeted patches and file writes use atomic replacement to reduce the risk of incomplete writes. STOP lets you interrupt ongoing work.
-
-> **Execution boundaries:** Python and executed programs are not sandboxed. They retain your Windows account’s permissions. Keep backups of important files and review significant changes.
-
-## Local and Online Processing
-
-Local models run on your computer. Cloud models and online services receive the data required for their tasks.
-
-Depending on your configuration, online services may be used for:
-
-- Cloud conversations and API models
-- Web searches
-- Image analysis and speech recognition
-- Text-to-speech
-- n8n workflows
-
-API providers may charge separately for usage. A ChatGPT subscription or Codex credits do not cover OpenAI API calls made by ShaetherLm.
-
-## Getting Started
-
-1. Open **Settings > Connection** and choose your provider.
-2. Configure its connection or API credentials as needed.
-3. Select your model in **Model**.
-4. Choose your language and Workspace in **Assistant**.
-5. Save your settings and try a short conversation.
-
-Use **User guide** in Settings for the complete French user guide.
+The same link is available in **Settings → Connection**.
 
 ---
 
-**The goal:** a flexible AI assistant for conversation and practical work, with a choice of models, useful continuity, and clear controls over tools and automation.
+© Sébast242 · [Contact](mailto:shaetherlm@gmail.com)
+
+## License
+
+ShaetherLM is **proprietary freeware**: free for personal and professional use,
+with private source code. Donations are entirely optional.
+
+You may share the unmodified official EXE free of charge, together with its
+license and any required third-party notices. Third-party components retain
+their own licenses and terms.
+
+See [the full license](LICENSE_SHAETHERLM_FR.txt) for the conditions of use and redistribution.

@@ -1,0 +1,90 @@
+SHAETHERLM — LICENCE FREEWARE PROPRIÉTAIRE
+Version 1.0 — 6 novembre 2026
+
+Copyright © 2026 — Sébast242
+
+Tous droits réservés sur les éléments originaux de ShaetherLm.
+
+1. Objet
+ShaetherLm (« le Logiciel ») est une application distribuée gratuitement sous forme exécutable, sans mise à disposition de son code source.
+
+La présente licence définit les conditions d'utilisation et de redistribution des éléments originaux du Logiciel. Elle ne modifie pas les droits et licences applicables aux composants tiers.
+
+2. Droit d'utilisation
+Sous réserve du respect de cette licence, le titulaire des droits accorde à chaque utilisateur une autorisation gratuite, non exclusive, mondiale et sans limitation de durée prédéfinie d'utiliser ShaetherLm, à titre personnel ou professionnel, sur les ordinateurs de son choix.
+
+Les copies nécessaires à l'utilisation légitime et les copies de sauvegarde autorisées par la loi sont permises.
+
+Aucun paiement, abonnement ou don n'est exigé pour utiliser le Logiciel.
+
+3. Redistribution gratuite autorisée
+Toute personne est autorisée à copier et à redistribuer gratuitement l'exécutable officiel de ShaetherLm, notamment à des proches ou sur des plateformes de téléchargement, sous réserve des conditions suivantes :
+
+L'exécutable doit rester strictement identique à la version officielle, sans modification de son contenu. Son inclusion dans une archive ZIP est autorisée.
+
+La redistribution doit être entièrement gratuite, sans obligation d'achat, d'abonnement ou de paiement.
+
+Le nom ShaetherLm et les mentions de droits d'auteur ne doivent pas être supprimés ni falsifiés.
+
+La présente licence doit accompagner l'exécutable, ainsi que les notices des composants tiers lorsqu'elles sont requises.
+
+Aucun redistributeur ne peut se présenter comme l'auteur ou le distributeur officiel de ShaetherLm sans autorisation.
+
+La revente du Logiciel, son inclusion dans une offre payante ou la facturation de son accès nécessitent une autorisation distincte du titulaire des droits, sous réserve des dispositions légales impératives.
+
+4. Code source et propriété intellectuelle
+Le code source de ShaetherLm demeure privé et n'est pas fourni dans le cadre de cette licence.
+
+La distribution gratuite du Logiciel ne constitue ni une publication open source, ni une renonciation aux droits de propriété intellectuelle.
+
+Sauf autorisation écrite préalable, la redistribution de versions modifiées, la publication non autorisée du code source original et la suppression des mentions de propriété intellectuelle ne sont pas permises.
+
+Ces restrictions ne portent pas atteinte aux droits expressément reconnus par la loi, notamment les droits de sauvegarde, d'observation, d'étude, de test et de décompilation aux fins d'interopérabilité, dans les conditions de l'article L.122-6-1 du Code de la propriété intellectuelle.
+
+Tous les droits non expressément accordés restent réservés à leurs titulaires, sous réserve des exceptions légales.
+
+5. Composants et services tiers
+ShaetherLm peut utiliser ou intégrer des bibliothèques, modèles, outils et services développés par des tiers.
+
+Ces éléments restent soumis à leurs propres licences et conditions d'utilisation, qui continuent de s'appliquer indépendamment de la présente licence.
+
+Certaines fonctionnalités peuvent nécessiter une connexion Internet, un compte externe ou des clés API personnelles.
+
+Les fournisseurs de ces services peuvent appliquer leurs propres limitations, conditions tarifaires et politiques de confidentialité.
+
+6. Dons facultatifs
+ShaetherLm est entièrement gratuit.
+
+Les dons effectués notamment par l'intermédiaire du lien PayPal présent dans les paramètres sont strictement facultatifs.
+
+Ils ne constituent ni un achat de licence, ni une obligation pour accéder aux fonctionnalités du Logiciel, ni une acquisition de droits sur le code source.
+
+7. Absence de garantie contractuelle
+ShaetherLm est fourni gratuitement « en l'état ».
+
+Dans les limites autorisées par la législation applicable, aucune garantie contractuelle n'est donnée concernant l'absence d'erreurs, le fonctionnement ininterrompu, la compatibilité avec tous les équipements ou l'adéquation à un usage particulier.
+
+L'utilisateur est responsable des précautions raisonnables nécessaires à son utilisation du Logiciel, notamment la sauvegarde de ses données et la protection de ses clés API.
+
+La présente clause ne prive l'utilisateur d'aucun droit ni garantie impérative prévus par la loi.
+
+8. Responsabilité
+Dans les limites autorisées par la loi, le titulaire des droits ne pourra être tenu responsable des dommages liés à l'utilisation ou à l'impossibilité d'utiliser le Logiciel lorsque cette responsabilité peut légalement être exclue.
+
+Aucune disposition de cette licence ne limite les responsabilités dont l'exclusion est interdite par la législation applicable.
+
+9. Non-respect de la licence
+Le non-respect des présentes conditions peut entraîner la fin des autorisations accordées à l'utilisateur concerné.
+
+Cette disposition ne porte pas atteinte aux droits que la loi lui reconnaît indépendamment de la licence.
+
+10. Droit applicable
+La présente licence est régie par le droit français, sous réserve des dispositions impératives applicables, notamment celles relatives à la protection des consommateurs et aux droits des utilisateurs de logiciels.
+
+ShaetherLm — Freeware propriétaire
+
+Utilisation gratuite · Redistribution gratuite de l'EXE officiel non modifié · Code source privé · Dons facultatifs
+
+Copyright © 2026 — Sébast242
+
+Tous droits réservés.
