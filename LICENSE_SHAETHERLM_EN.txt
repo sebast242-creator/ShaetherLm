@@ -57,7 +57,7 @@ Service providers may apply their own limitations, pricing terms, and privacy po
 6. Optional donations
 ShaetherLm is entirely free of charge.
 
-Donations, including those made through the PayPal link in Settings, are strictly optional.
+Donations, including those made through the Ko-fi link in Settings, are strictly optional.
 
 They do not constitute a license purchase, a requirement for access to the Software's features, or the acquisition of any rights to the source code.
 
