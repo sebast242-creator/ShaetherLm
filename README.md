@@ -42,10 +42,11 @@ At startup, **Ask** lets you choose independently whether to resume the saved
 conversation and use long-term memory. **Automatic** and **Never** are also
 available. Continuity helps preserve ongoing work; it does not promise perfect recall.
 
-**Shows** — Mood Pulse: an animated mandala whose shape, colour and rhythm
-the model steers alongside the conversation. Optional, decorative, and honest
-about what it is: a model-generated visual expression, not a measurement of
-feelings or consciousness.
+**Expresses** — With **Mood Pulse**, the conversation takes shape and colour.
+The assistant controls an animated mandala whose forms, colours, and rhythm
+follow the emotional tone it expresses throughout the exchange. A beautiful,
+playful visual dimension that complements its words and voice — and gives
+ShaetherLM a distinctive character.
 
 **Feels comfortable** — textured metal buttons, illuminated indicators,
 clickable web and local-file links, and a retractable conversation library.
@@ -101,6 +102,18 @@ they are not bundled.
 - One working engine (Ollama or BeeLlama) or an API key.
 - Optional: a Groq key for image analysis and voice input.
 
+## Comfortable defaults, adjustable limits
+
+On first launch, automatic context cleaning and completion sounds are enabled.
+Context starts at **90K tokens** for local engines and API profiles. Sliders let
+you choose **4K–256K context** and **4K–64K response limits** (1K = 1,024 tokens).
+The response limit applies in both normal chat and Agent mode, including reasoning.
+Choose values supported by your model and hardware; API providers may impose lower limits.
+
+The **Agent security** section starts with **Workspace autonomous mode**.
+You can choose stricter command approval at any time. Existing saved settings
+are preserved.
+
 ## Built-in tools
 
 **17 integrated tools**, plus one optional n8n tool when enabled and an
@@ -146,7 +159,7 @@ the Workspace is **not an operating-system sandbox**.
 ## Support the project
 
 If ShaetherLM is useful to you, you can support its development with a
-voluntary donation: **[Donate with PayPal](https://www.paypal.com/qrcodes/p2pqrc/J65DSN5ZLF7XL)**.
+voluntary donation: **[Donate with Ko-fi](https://ko-fi.com/shaetherlm)**.
 
 The same link is available in **Settings → Connection**.
 
