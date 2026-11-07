@@ -7,7 +7,7 @@
 > **Release preparation:** version 1.0 is being prepared for public distribution.
 > The EXE is not available in a published Release yet.
 
-[Getting started](#quick-start) · [Versions and downloads](https://github.com/sebast242-creator/ShaetherLm/releases) · [License](#license)
+[Getting started](#quick-start) · [User guides](#user-guides) · [Versions and downloads](https://github.com/sebast242-creator/ShaetherLm/releases) · [License](#license)
 
 ShaetherLM is a desktop AI workspace for Windows: a conversation, a full set of
 working tools, and a memory that survives the session — all built to run on your
@@ -69,7 +69,16 @@ Results depend on your model and configured tools. Review important outputs.
 
 ## See ShaetherLM in action
 
-New screenshots and a demonstration video are coming soon.
+![ShaetherLM workspace with a conversation, voice controls, and the Memory and Display panels](images/workspace.png)
+
+<details>
+<summary>Mood Pulse in action</summary>
+
+<img src="images/mood-pulse-action.png" alt="Mood Pulse during a tool action" width="180">
+<img src="images/mood-pulse-calm.png" alt="Mood Pulse in a calm, attentive state" width="180">
+<img src="images/mood-pulse-joy.png" alt="Mood Pulse in a playful, joyful state" width="180">
+
+</details>
 
 ## Quick start
 
@@ -79,8 +88,12 @@ New screenshots and a demonstration video are coming soon.
 4. Enable **Agent** for a task involving several steps.
 5. Open **Memory** to manage checkpoints and long-term memories.
 
-Updated English and French guides are being prepared for version 1.0.
-They will focus on practical examples, with technical details at the end.
+## User guides
+
+- [English user guide (PDF)](ShaetherLm_V1_Guide_EN.pdf)
+- [Guide utilisateur français (PDF)](ShaetherLm_V1_Guide_FR.pdf)
+
+Both guides are also available from **Settings → Connection** in ShaetherLM.
 
 ## Runs on
 
@@ -154,7 +167,7 @@ the Workspace is **not an operating-system sandbox**.
 
 ## Status
 
-**Version 1.0** · README updated November 6, 2026.
+**Version 1.0** · README updated November 7, 2026.
 
 ## Support the project
 
