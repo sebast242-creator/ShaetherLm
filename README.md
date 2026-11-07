@@ -2,7 +2,7 @@
 
 **Your assistant. Your machine. Your files.**
 
-**Free Windows application · No installation required · Local models and cloud APIs**
+**Free Windows application · No installation required · Multilingual chat · Local models and cloud APIs**
 
 > **Release preparation:** version 1.0 is being prepared for public distribution.
 > The EXE is not available in a published Release yet.
@@ -20,8 +20,7 @@ everyday use, with voice playback and clear controls.
 
 ## What it does
 
-**Talks** — Markdown, code, math. Optional voice input (Groq STT) and
-read-aloud responses (Edge TTS) with text following.
+**Talks** — Converse in the languages supported by your chosen model. Set your preferred reply language in **Settings → Assistant**. Chat supports Markdown, code, and math, with optional voice input (Groq STT) and read-aloud responses (Edge TTS) with text following.
 
 **Works** — 17 integrated tools: PDF/Word/Excel reading, PDF creation, web search
 and fetching, image analysis, Python execution, targeted code patches, and a
