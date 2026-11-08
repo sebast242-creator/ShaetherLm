@@ -4,8 +4,7 @@
 
 **Free Windows application · No installation required · Multilingual chat · Local models and cloud APIs**
 
-> **Release preparation:** version 1.0 is being prepared for public distribution.
-> The EXE is not available in a published Release yet.
+**[Download ShaetherLm for Windows](https://github.com/sebast242-creator/ShaetherLm/releases/download/v1.0.0/ShaetherLm.exe)** · [Release 1.0](https://github.com/sebast242-creator/ShaetherLm/releases/tag/v1.0.0)
 
 [Getting started](#quick-start) · [User guides](#user-guides) · [Versions and downloads](https://github.com/sebast242-creator/ShaetherLm/releases) · [License](#license)
 
@@ -81,7 +80,7 @@ Results depend on your model and configured tools. Review important outputs.
 
 ## Quick start
 
-1. Once the public release is available, download and launch the official EXE — no application installation required. Open **Settings → Connection** and select your engine or API provider.
+1. Download and launch [ShaetherLm.exe](https://github.com/sebast242-creator/ShaetherLm/releases/download/v1.0.0/ShaetherLm.exe) — no application installation required. Open **Settings → Connection** and select your engine or API provider.
 2. Configure your model, choose a **Workspace** folder, and save.
 3. Start a conversation or attach a document.
 4. Enable **Agent** for a task involving several steps.
@@ -109,7 +108,7 @@ they are not bundled.
 
 For a local agent, this companion kit is recommended for **NVIDIA GPUs with 16 GB VRAM and PCs with 32 GB RAM**. Choose a folder, let it download and verify the engine and model, then select that folder in ShaetherLm.
 
-**[Download the optional BeeLlama + 27B kit (ZIP)](ShaetherLm_BeeLlama_Kit_v1.0_0.4.9.zip?raw=true)** · [English instructions](ShaetherLm_BeeLlama_Kit/README_EN.md) · [Instructions en français](ShaetherLm_BeeLlama_Kit/README_FR.md) · [SHA-256 checksum](ShaetherLm_BeeLlama_Kit_v1.0_0.4.9.zip.sha256)
+**[Download the optional BeeLlama + 27B kit (ZIP)](https://github.com/sebast242-creator/ShaetherLm/releases/download/v1.0.0/ShaetherLm_BeeLlama_Kit_v1.0_0.4.9.zip)** · [English instructions](ShaetherLm_BeeLlama_Kit/README_EN.md) · [Instructions en français](ShaetherLm_BeeLlama_Kit/README_FR.md) · [SHA-256 checksum](https://github.com/sebast242-creator/ShaetherLm/releases/download/v1.0.0/ShaetherLm_BeeLlama_Kit_v1.0_0.4.9.zip.sha256)
 
 On Seb's **RTX 5070 Ti 16 GB / 32 GB RAM** setup, everyday use averages around **30 tokens/s**, with context used up to approximately **93,000 tokens**. These are his observed results; performance varies with hardware and workload. Start with **64K context**, then try **90K** after a stable first run.
 

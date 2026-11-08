@@ -1,6 +1,4 @@
-# ShaetherLM 1.0 — release notes draft
-
-**Preparation only — this document does not publish a release.**
+# ShaetherLM 1.0 — release notes
 
 ## A local AI workspace for everyday work
 
@@ -32,6 +30,15 @@ your assistant a task.
   sounds enabled, Workspace autonomous command approval.
 - Ko-fi support link and access to the official GitHub release page in Settings.
 
+## Downloads
+
+- [ShaetherLm.exe — Windows, no installation required](https://github.com/sebast242-creator/ShaetherLm/releases/download/v1.0.0/ShaetherLm.exe)
+- [Optional BeeLlama + Qwen3.8-27B kit](https://github.com/sebast242-creator/ShaetherLm/releases/download/v1.0.0/ShaetherLm_BeeLlama_Kit_v1.0_0.4.9.zip) · [SHA-256 checksum](https://github.com/sebast242-creator/ShaetherLm/releases/download/v1.0.0/ShaetherLm_BeeLlama_Kit_v1.0_0.4.9.zip.sha256)
+- Kit instructions: [English](ShaetherLm_BeeLlama_Kit/README_EN.md) · [Français](ShaetherLm_BeeLlama_Kit/README_FR.md)
+- User guides: [English](ShaetherLm_V1_Guide_EN.pdf) · [Français](ShaetherLm_V1_Guide_FR.pdf)
+
+The optional kit targets NVIDIA GPUs with 16 GB VRAM and PCs with 32 GB RAM. It downloads the engine and model separately; ShaetherLm itself does not include model weights.
+
 ## Before you start
 
 - Windows 10/11.
@@ -49,19 +56,3 @@ free of charge under the accompanying license. Source code remains private.
 Third-party components retain their own licenses.
 
 Licenses: [English translation](LICENSE_SHAETHERLM_EN.txt) · [French original](LICENSE_SHAETHERLM_FR.txt).
-
----
-
-## Publisher checklist — remove this section from the final release description
-
-- Choose the version tag `v1.0.0` and the release title `ShaetherLM 1.0`.
-- Select and test the final EXE intended for distribution.
-- Include the license and required third-party notices with the downloadable package.
-- Add the new screenshot collection; review visible personal information.
-- Add the demonstration video.
-- Add the updated FR/EN guides.
-- Check the README links and remove its release-preparation notice only when download is available.
-- Verify the application's Check for updates link after the repository becomes public.
-- Finish the existing GitHub draft Release, upload the intended files, and verify downloads.
-- Review repository contents and history before making the repository public.
-- Prepare the Hugging Face static Space with links to the official GitHub download.
