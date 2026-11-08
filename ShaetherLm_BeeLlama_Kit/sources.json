@@ -1,0 +1,29 @@
+{
+  "kit": "ShaetherLm-BeeLlama",
+  "version": "0.4.9",
+  "checked": "2026-11-07",
+  "archives": [
+    {
+      "kind": "engine",
+      "name": "beellama-v0.4.9-bin-win-cuda-13.3-x64.zip",
+      "url": "https://github.com/Anbeeld/beellama.cpp/releases/download/v0.4.9/beellama-v0.4.9-bin-win-cuda-13.3-x64.zip",
+      "sha256": "21f1b0a12b26a2967f079b94f52e22c7448b483624dec30d31b36995aff31d87"
+    },
+    {
+      "kind": "runtime",
+      "name": "beellama-v0.4.9-cudart-win-cuda-13.3-x64.zip",
+      "url": "https://github.com/Anbeeld/beellama.cpp/releases/download/v0.4.9/beellama-v0.4.9-cudart-win-cuda-13.3-x64.zip",
+      "sha256": "1462a050eb4c684921ba51dcc4cc488a036674c3e73e9945ee705b854808d03e"
+    }
+  ],
+  "model": {
+    "name": "Qwen3.8-27B-i1-IQ4_XS-GGUF-Smaller.gguf",
+    "url": "https://huggingface.co/jrell/Qwen3.8-27B-i1-IQ4_XS-GGUF-Smaller/resolve/bcb1edfb517aa9ae2443bf22961862a3b7a4a5a6/Qwen3.8-27B-i1-IQ4_XS-GGUF-Smaller.gguf",
+    "sha256": "4dff967bae0798f04cbd250ddef212e6c131fdc50c8113cf63fe74f145c94cea"
+  },
+  "template": {
+    "name": "chat_template.jinja",
+    "url": "https://huggingface.co/peculiar-ragdoll/Qwen-Sharp-Chat-Templates/resolve/6a78b888557f8c9987f51bca98d02d8f69682044/archive/v22.4.0-sharp/chat_template.jinja",
+    "sha256": "180e7015759b2b6b57574d6c2ca5c2d19eb2b05a4aaffa80866f71eb1a1fad1a"
+  }
+}

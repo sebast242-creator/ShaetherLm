@@ -105,6 +105,16 @@ Both guides are also available from **Settings → Connection** in ShaetherLM.
 Choose one in Settings. Local models and API keys are yours to configure;
 they are not bundled.
 
+## Optional local pack: BeeLlama + Qwen3.8-27B
+
+For a local agent, this companion kit is recommended for **NVIDIA GPUs with 16 GB VRAM and PCs with 32 GB RAM**. Choose a folder, let it download and verify the engine and model, then select that folder in ShaetherLm.
+
+**[Download the optional BeeLlama + 27B kit (ZIP)](ShaetherLm_BeeLlama_Kit_v1.0_0.4.9.zip?raw=true)** · [English instructions](ShaetherLm_BeeLlama_Kit/README_EN.md) · [Instructions en français](ShaetherLm_BeeLlama_Kit/README_FR.md) · [SHA-256 checksum](ShaetherLm_BeeLlama_Kit_v1.0_0.4.9.zip.sha256)
+
+On Seb's **RTX 5070 Ti 16 GB / 32 GB RAM** setup, everyday use averages around **30 tokens/s**, with context used up to approximately **93,000 tokens**. These are his observed results; performance varies with hardware and workload. Start with **64K context**, then try **90K** after a stable first run.
+
+The small ZIP contains the download assistant, not the model weights. It downloads approximately **14.6 GB**; allow **25 GB free disk space** and a CUDA 13.3-compatible NVIDIA driver. The pack is optional and separate from ShaetherLm, whose EXE requires no installation.
+
 ## Requirements
 
 - Windows 10/11. **No installation is required for ShaetherLM**: launch the EXE directly.
@@ -166,7 +176,7 @@ the Workspace is **not an operating-system sandbox**.
 
 ## Status
 
-**Version 1.0** · README updated November 7, 2026.
+**Version 1.0** · README updated November 8, 2026.
 
 ## Support the project
 

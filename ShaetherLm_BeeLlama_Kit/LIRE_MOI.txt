@@ -1,0 +1,58 @@
+SHAETHERLM - PACK LOCAL OPTIONNEL BEELLAMA + QWEN3.8-27B
+Profil conseillé : NVIDIA 16 Go de VRAM + 32 Go de RAM
+
+Retour d'utilisation de Séb : RTX 5070 Ti 16 Go de VRAM + 32 Go de RAM,
+environ 30 tokens/s en moyenne, contexte utilisé jusqu'à environ 93 000 tokens.
+Résultats observés sur cette configuration, pas une limite universelle du modèle
+ni une vitesse garantie sur toutes les cartes de 16 Go.
+Ce pack est facultatif : ShaetherLm fonctionne aussi avec Ollama ou une API.
+
+1. Extraire tout le ZIP dans un dossier.
+2. Lire README_FR.md (English: README_EN.md).
+3. Double-cliquer INSTALL.cmd et choisir un dossier vide.
+4. Confirmer avec O ou Y. Environ 14,6 Go de téléchargements.
+5. Dans ShaetherLm : Settings > Connection > BeeLlama.
+6. Settings > BeeLlama : choisir le dossier prepare par le kit.
+7. Commencer avec Context 64K et MTP OFF, puis Save & Apply.
+
+Prévoir 25 Go libres et un pilote NVIDIA compatible CUDA 13.3.
+Le ZIP contient l'assistant qui télécharge BeeLlama, le modèle et son template.
+Les poids du modèle ne sont pas inclus dans le ZIP.
+Modèle : https://huggingface.co/jrell/Qwen3.8-27B-i1-IQ4_XS-GGUF-Smaller
+Le kit n'inclut pas ShaetherLm : https://github.com/sebast242-creator/ShaetherLm/releases
+Il ne modifie pas votre installation ni les réglages existants de ShaetherLm.
+Il refuse de remplacer un dossier déjà occupe par une autre installation.
+VERIFY.cmd permet de verifier les fichiers ; le vrai chargement se teste dans l'application.
+
+Les sources, versions et empreintes sont indiquées dans SOURCES.md et sources.json.
+
+------------------------------
+
+SHAETHERLM - OPTIONAL LOCAL PACK: BEELLAMA + QWEN3.8-27B
+Recommended profile: NVIDIA 16 GB VRAM + 32 GB RAM
+
+Seb's everyday experience: RTX 5070 Ti 16 GB VRAM + 32 GB RAM,
+around 30 tokens/s on average, with context used up to approximately 93,000 tokens.
+These are observed results on this setup, not a universal model limit
+or a guaranteed speed on every 16 GB GPU.
+This pack is optional: ShaetherLm also works with Ollama or an API provider.
+
+1. Extract the entire ZIP file to a folder.
+2. Read README_EN.md (French: README_FR.md).
+3. Double-click INSTALL.cmd and choose an empty folder.
+4. Confirm with Y or O. Approximately 14.6 GB download.
+5. In ShaetherLm: Settings > Connection > BeeLlama.
+6. Settings > BeeLlama: select the folder prepared by the kit.
+7. Start with Context 64K and MTP OFF, then Save & Apply.
+
+Requires 25 GB of free space and an NVIDIA driver compatible with CUDA 13.3.
+
+The ZIP contains an assistant that downloads BeeLlama, the model and its template.
+Model weights are not bundled in the ZIP.
+Model: https://huggingface.co/jrell/Qwen3.8-27B-i1-IQ4_XS-GGUF-Smaller
+The kit does not include ShaetherLm: https://github.com/sebast242-creator/ShaetherLm/releases
+It does not modify your existing ShaetherLm installation or settings.
+It refuses to replace an already occupied folder with another installation.
+VERIFY.cmd allows you to verify the files; the actual loading is tested within the application.
+
+The sources, versions, and fingerprints are listed in SOURCES.md and sources.json.
