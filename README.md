@@ -67,6 +67,10 @@ Results depend on your model and configured tools. Review important outputs.
 
 ## See ShaetherLM in action
 
+**[▶ First launch — Set up your AI workspace in 50 seconds](https://github.com/sebast242-creator/ShaetherLm/blob/main/ShaetherLm_First_Launch.mp4)**
+
+Watch the first-launch settings walkthrough, from choosing a model to configuring your workspace.
+
 ![ShaetherLM workspace with a conversation, voice controls, and the Memory and Display panels](images/workspace.png)
 
 <details>
