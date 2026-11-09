@@ -71,7 +71,7 @@ Results depend on your model and configured tools. Review important outputs.
 
 Watch the first-launch settings walkthrough, from choosing a model to configuring your workspace.
 
-**[▶ ShaetherLm in action — Watch the application demo](https://github.com/sebast242-creator/ShaetherLm/blob/main/Demo%20SheatherLm.mp4)**
+**[▶ ShaetherLm in action — Watch the application demo](https://github.com/sebast242-creator/ShaetherLm/blob/main/Demo%20ShaetherLm.mp4)**
 
 ![ShaetherLM workspace with a conversation, voice controls, and the Memory and Display panels](images/workspace.png)
 
