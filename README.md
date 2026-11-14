@@ -4,7 +4,7 @@
 
 **Free Windows application · No installation required · Multilingual chat · Local models and cloud APIs**
 
-**[Download ShaetherLm for Windows](https://github.com/sebast242-creator/ShaetherLm/releases/latest)** · **V1.1**
+**[Get it from Microsoft Store](https://apps.microsoft.com/store/detail/9N9F1X8LKFG0?cid=DevShareMCLPCS)** · **[Download ShaetherLm for Windows](https://github.com/sebast242-creator/ShaetherLm/releases/latest)** · **V1.1**
 
 [Getting started](#quick-start) · [User guides](#user-guides) · [Versions and downloads](https://github.com/sebast242-creator/ShaetherLm/releases) · [License](#license)
 
