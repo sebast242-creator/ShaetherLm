@@ -1,0 +1,33 @@
+SHAETHERLM V1.1 - KIT OPTIONNEL STRATA + GYRO-S
+
+1. Décompressez le ZIP et lancez INSTALL.cmd.
+2. Entrez le chemin complet d'un dossier sur un SSD local, par exemple D:\ShaetherLm-Strata.
+3. Attendez la fin du téléchargement et du premier démarrage. Le kit arrête ensuite son moteur de test.
+4. Dans ShaetherLm V1.1, ouvrez Settings > Connection, choisissez Strata, indiquez le dossier du kit et cliquez sur Start Strata.
+5. Attendez le voyant vert fixe, puis cliquez sur Save & Apply.
+
+Configuration de référence : Windows x64, NVIDIA RTX 5070 Ti (16 Go de VRAM), 32 Go de RAM et un SSD avec au moins 80 Go libres. Le modèle représente environ 59 Go et la préparation demande de l'espace supplémentaire. Fermez les autres moteurs locaux avant le premier lancement.
+
+Le kit télécharge le Terminal depuis la release officielle Strata v0.2.13, vérifie le SHA-256 du programme d'installation et utilise les vérifications de Strata pour ses composants. Strata récupère Gyro-S et crée le profil local. Les gros fichiers vont dans le dossier choisi. Strata conserve ses petits fichiers d'état utilisateur dans LocalAppData.
+
+Profil V1.1 : contexte 100K, réserve VRAM 300 Mio, cache d'experts 16 Gio, réserve RAM 3 Gio, Drafting Auto et vision désactivée. Max response tokens 25K et Reasoning XHigh se règlent dans Settings > Model dans ShaetherLm. Le serveur est accessible uniquement depuis votre PC.
+
+VERIFY.cmd vérifie les fichiers et le profil sans charger le modèle. Si le port 8080 est déjà pris, fermez le moteur qui l'utilise ou lancez INSTALL.cmd avec -Port 8081 dans un terminal.
+
+---
+
+SHAETHERLM V1.1 - OPTIONAL STRATA + GYRO-S KIT
+
+1. Extract the ZIP and run INSTALL.cmd.
+2. Enter a full folder path on a local SSD, such as D:\ShaetherLm-Strata.
+3. Wait for the download and first startup. The kit then stops its setup instance.
+4. In ShaetherLm V1.1, open Settings > Connection, choose Strata, select that folder, and click Start Strata.
+5. Wait for the solid green light and select Save & Apply.
+
+Reference setup: Windows x64, NVIDIA RTX 5070 Ti (16 GB VRAM), 32 GB RAM, and an SSD with at least 80 GB free. Gyro-S itself is about 59 GB. Setup needs extra space. Close other local AI engines before the first launch.
+
+The kit downloads Strata Terminal from the official v0.2.13 release, checks its bootstrap SHA-256, and uses Strata's component verification. Strata fetches Gyro-S and writes a local profile. Large files go in your chosen folder. Strata keeps small per-user state files in LocalAppData.
+
+V1.1 settings: 100K context, 300 MiB VRAM reserve, 16 GiB expert cache, 3 GiB RAM reserve, Auto drafting, and vision off. Set 25K Max response tokens and XHigh Reasoning in ShaetherLm's Model tab. The server is accessible only from your PC.
+
+VERIFY.cmd checks the files and profile without loading the model. If port 8080 is busy, close the engine using it or run INSTALL.cmd with -Port 8081 from a terminal.
