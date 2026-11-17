@@ -83,7 +83,7 @@ Watch the first-launch settings walkthrough, from choosing a model to configurin
 ![ShaetherLM workspace with a conversation, voice controls, and the Memory and Display panels](images/workspace.png)
 
 <details>
-<summary>Mood Pulse in action</summary>
+<summary>125B LOCALLY 16GO VRAM</summary>
 
 <img src="images/mood-pulse-action.png" alt="Mood Pulse during a tool action" width="180">
 <img src="images/mood-pulse-calm.png" alt="Mood Pulse in a calm, attentive state" width="180">
