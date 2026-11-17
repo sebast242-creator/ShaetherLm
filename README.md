@@ -13,6 +13,8 @@ ShaetherLM brings them together in a free Windows desktop application.
 
 Free · Windows 10/11 · Multilingual chat · Local models and cloud APIs
 
+![Run a 125B model locally with 16 GB VRAM using ShaetherLM and Strata](images/125b%20locally%2016gb%20vram.png)
+
 [125B local setup](#125b-on-your-pc--strata--gyro-s) · [What's new in V1.1](#whats-new-in-v11) · [Quick start](#quick-start) · [User guides](#user-guides) · [License](#license)
 
 Read a document together. Let your agent investigate a subject, improve a project,
@@ -70,10 +72,27 @@ this configuration possible. The 16 GB figure refers to the GPU's VRAM.
 These are the project's tested reference settings. Available memory, context
 length, and workload affect performance.
 
+![Strata monitor running Gyro-S on an RTX 5070 Ti with 16 GB VRAM](images/Strata%20overview%20with%205070ti.png)
+
+*Strata running on the reference PC. Open the image to inspect the monitor at full size.*
+
 1. [Download the kit](https://github.com/sebast242-creator/ShaetherLm/releases/latest/download/ShaetherLm_Strata_Kit_v1.1_0.2.13.zip), extract it, and run **INSTALL.cmd**.
 2. Choose a folder on a local SSD and let the kit download and prepare Strata and Gyro-S. The model download is approximately **59 GB**.
 3. Open **Settings → Connection → Strata** in ShaetherLM and select the prepared folder.
 4. Click **Start Strata**, wait for the solid green indicator, then select **Save & Apply**.
+
+<details>
+<summary>See the Strata connection and Gyro-S model settings</summary>
+
+**Connection and startup**
+
+![ShaetherLM Connection settings for starting Strata and Gyro-S](images/Start%20125b%20%2B%20Strata%20settings.png)
+
+**Model settings**
+
+![ShaetherLM model settings for the Gyro-S local model](images/settings%20gyro%20s%20model.png)
+
+</details>
 
 The kit includes English and French instructions. **VERIFY.cmd** checks its files
 and profile. The small ZIP contains the download assistant; the engine and model
@@ -252,6 +271,6 @@ services retain their own licenses and terms.
 
 ---
 
-**Version 1.1** · README updated November 17, 2026.
+**Version 1.1** · README updated November 18, 2026.
 
 © Sébast242 · [Contact](mailto:shaetherlm@gmail.com)
