@@ -72,7 +72,7 @@ follow and pause controls. **Display** lets you show or hide details; only
 
 Results depend on your model and configured tools. Review important outputs.
 
-## See ShaetherLM in action
+## See ShaetherLM in action (v1.0.0)
 
 **[▶ First launch — Set up your AI workspace in 50 seconds](https://github.com/sebast242-creator/ShaetherLm/blob/main/ShaetherLm_First_Launch.mp4)**
 
