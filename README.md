@@ -152,9 +152,9 @@ Earlier walkthroughs cover the general workflow. Their interface predates the la
 <details>
 <summary>Explore Mood Pulse</summary>
 
-<img src="images/mood-pulse-action.png" alt="Mood Pulse during a tool action" width="180">
-<img src="images/mood-pulse-calm.png" alt="Mood Pulse in a calm, attentive state" width="180">
-<img src="images/mood-pulse-joy.png" alt="Mood Pulse in a playful, joyful state" width="180">
+<img src="images/moodpulse wonder joy--- playfull.png" alt="Mood Pulse during a tool action" width="180">
+<img src="images/moodpulse thinking2.png" alt="Mood Pulse in a calm, attentive state" width="180">
+<img src="images/moodpulse thinking.png" alt="Mood Pulse in a playful, joyful state" width="180">
 
 </details>
 
