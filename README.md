@@ -4,8 +4,12 @@
 
 **Qwen3.8-Flash-Next 125B MoE (Qwen4-exp) · Gyro-S · Strata**
 
-Give a large local model a workspace, tools, a memory, and a task worth doing.
-ShaetherLM brings them together in a free Windows desktop application.
+A Windows workspace for conversation, agent tools, voice, and memory.
+Run local models or connect a cloud API, give your assistant a project folder,
+and pick up the thread across sessions.
+
+**V1.1 brings native Strata integration, clearer memory and resume controls,
+and a brushed-metal interface with Mood Pulse and its new HAL visual mode.**
 
 **[Get it from Microsoft Store](https://apps.microsoft.com/store/detail/9N9F1X8LKFG0?cid=DevShareMCLPCS)** · **[Download the portable Windows EXE](https://github.com/sebast242-creator/ShaetherLm/releases/latest)** · **[Get the Strata + Gyro-S kit](https://github.com/sebast242-creator/ShaetherLm/releases/latest/download/ShaetherLm_Strata_Kit_v1.1_0.2.13.zip)**
 
@@ -15,41 +19,85 @@ Free · Windows 10/11 · Multilingual chat · Local models and cloud APIs
 
 ![Run a 125B model locally with 16 GB VRAM using ShaetherLM and Strata](images/125b%20locally%2016gb%20vram.png)
 
-[125B local setup](#125b-on-your-pc--strata--gyro-s) · [What's new in V1.1](#whats-new-in-v11) · [Quick start](#quick-start) · [User guides](#user-guides) · [License](#license)
+[What's new in V1.1](#whats-new-in-v11) · [Mood Pulse & HAL](#mood-pulse--hal) · [125B local setup](#125b-on-your-pc--strata--gyro-s) · [Quick start](#quick-start) · [User guides](#user-guides)
 
 Read a document together. Let your agent investigate a subject, improve a project,
 write and run code, or carry a task through several steps. Keep useful memories
 across sessions and return to work from a checkpoint.
 
-Listen to replies while **Mood Pulse** animates behind its glass porthole,
-following the emotional tone expressed by your assistant. The brushed-metal
-interface brings conversation, tools, voice, and memory into one workspace.
+Listen to replies, follow the agent's work, and keep memory controls within
+reach. **Mood Pulse** gives the conversation an animated presence behind its
+glass porthole — with a new **HAL-inspired red-and-gold core** you can switch
+on when the assistant is idle.
 
 ![ShaetherLM 1.1 with its brushed-metal interface, animated Mood Pulse porthole, conversation library, and Memory and Display controls](https://github.com/sebast242-creator/ShaetherLm/releases/download/v1.0.0/ShaetherLm.Workspace.png)
 
 ## What's new in V1.1
 
-### A 125B local agent, with a ready-to-use Strata setup kit
+### Run a larger local model with Strata
 
-The main addition is **native Strata integration**, tested with the quantized
-**Gyro-S version of Qwen3.8-Flash-Next 125B MoE (Qwen4-exp)** on an
-**RTX 5070 Ti with 16 GB VRAM, 32 GB system RAM, and an SSD**.
+**Native Strata integration** brings the quantized **Gyro-S version of
+Qwen3.8-Flash-Next 125B MoE (Qwen4-exp)** into ShaetherLM. The reference PC uses
+an **RTX 5070 Ti with 16 GB VRAM, 32 GB system RAM, and an SSD**: the engine
+uses all three, rather than fitting the entire model into VRAM.
 
-The optional kit downloads and prepares the engine and model in the folder you
-choose. In ShaetherLM, select **Strata** in **Settings → Connection**, choose
-that folder, and click **Start Strata**. The indicator blinks while loading,
-then stays green when the model is ready. The Strata monitor opens automatically.
+The optional setup kit downloads and prepares the engine and model in your
+chosen folder. Start Strata from **Settings → Connection**, watch the loading
+indicator turn solid green, and follow the model in the Strata monitor.
 
-**[Download the Strata + Gyro-S kit](https://github.com/sebast242-creator/ShaetherLm/releases/latest/download/ShaetherLm_Strata_Kit_v1.1_0.2.13.zip)** · [SHA-256 checksum](https://github.com/sebast242-creator/ShaetherLm/releases/latest/download/ShaetherLm_Strata_Kit_v1.1_0.2.13.zip.sha256) · [Setup and reference configuration](https://huggingface.co/spaces/sebast242/ShaetherLm)
+[Get the Strata + Gyro-S kit](https://github.com/sebast242-creator/ShaetherLm/releases/latest/download/ShaetherLm_Strata_Kit_v1.1_0.2.13.zip) · [Reference setup](#125b-on-your-pc--strata--gyro-s)
 
-### More continuity, clearer controls, a new visual identity
+### Pick up the thread more easily
 
-- **Choose where to resume.** Select a saved session or manual checkpoint from its associated Workspace, or start a fresh conversation.
-- **More practical long-term memory.** Search, edit, pin, and forget memories. Discard selected pending sources or clear the waiting queue directly.
-- **Improved context continuity.** Context cleaning prepares a summary so the agent can pick up its work. With Strata, the cleaning threshold accounts for the context capacity, reserved response budget, and safety margin.
-- **Useful information at a glance.** The **Context** button shows average Strata generation speed. **Memory** stays visible beside the conversation controls.
-- **A redesigned interface.** Brushed-metal controls, illuminated indicators, and a glass porthole around Mood Pulse. Click the glass for a brief visual response.
-- **Completion alerts your way.** Enable the completion sound, the “Ready” voice, both, or neither.
+- **Resume from the right place.** Choose a saved session or manual checkpoint
+  from its associated Workspace, or start fresh.
+- **Manage long-term memory directly.** Search, edit, pin, and forget memories;
+  discard selected pending sources or clear the waiting queue.
+- **Keep context usable.** Context cleaning prepares a summary for the next
+  stage of work. With Strata, its threshold accounts for context capacity,
+  the reserved response budget, and a safety margin.
+
+### A new face for your assistant
+
+- **Brushed metal, glass, and light.** A fixed metallic finish, illuminated
+  indicators, and a glass porthole bring the controls and Mood Pulse together.
+- **Mood Pulse, now with HAL.** Switch between the original mandala and a
+  HAL-inspired luminous core with a click on the glass while the assistant
+  is idle. [See both visual modes below](#mood-pulse--hal).
+- **Clearer status.** The **Context** button shows average Strata generation
+  speed, and **Memory** stays beside the conversation controls.
+- **Completion alerts your way.** Enable the completion sound, the “Ready”
+  voice, both, or neither.
+
+## Mood Pulse & HAL
+
+Mood Pulse translates the emotional tone expressed by the assistant into
+movement, forms, colours, and rhythm. The mandala remains visible behind the
+metallic porthole; HAL adds a bright yellow centre surrounded by a soft red
+glow that responds to the existing mood and activity signals.
+
+<table>
+  <tr>
+    <th>Mood Pulse · original mandala</th>
+    <th>Mood Pulse · HAL visual mode</th>
+  </tr>
+  <tr>
+    <td align="center"><a href="images/moodpulse%20thinking2.png"><img src="images/moodpulse%20thinking2.png" alt="Mood Pulse mandala behind the brushed-metal glass porthole" width="280"></a></td>
+    <td align="center"><a href="images/moodpulse%20mode%20HAL.png"><img src="images/moodpulse%20mode%20HAL.png" alt="Mood Pulse HAL mode with a luminous yellow centre and soft red glow inside the metallic porthole" width="280"></a></td>
+  </tr>
+</table>
+
+**To switch:** enable **Mood Pulse**, wait until the assistant is idle, and
+click inside the glass. Click again to return to the original appearance.
+Switching is unavailable while a response, tool action, context cleanup,
+image analysis, or memory operation is running.
+
+Entering HAL plays one of two short voice clips, alternating between
+*“I feel much better now”* and *“I want to help you.”* Returning to the original
+mode is silent. The visual choice lasts for the current app session.
+
+HAL changes the presentation, not the model, its instructions, or its personality.
+The animation follows the tone expressed in the conversation.
 
 ## 125B on your PC — Strata + Gyro-S
 
@@ -96,7 +144,7 @@ length, and workload affect performance.
 
 The kit includes English and French instructions. **VERIFY.cmd** checks its files
 and profile. The small ZIP contains the download assistant; the engine and model
-are downloaded separately.
+are downloaded separately. [Check the kit SHA-256](https://github.com/sebast242-creator/ShaetherLm/releases/latest/download/ShaetherLm_Strata_Kit_v1.1_0.2.13.zip.sha256).
 
 Explore the [Gyro model card](https://huggingface.co/agentionai/Qwen3.8-Flash-Next-Gyro-GGUF), [Strata project](https://github.com/Niko1221/Strata), and [ShaetherLM setup page](https://huggingface.co/spaces/sebast242/ShaetherLm).
 
@@ -118,10 +166,9 @@ automatic context cleaning. Optional local long-term memory keeps useful
 information across conversations, with source references and review controls.
 Forgetting excludes a memory from recall while retaining its history on disk.
 
-**Give the conversation a visual presence.** When enabled, **Mood Pulse** lets
-the assistant shape a mandala's movement, forms, colours, and rhythm according
-to the emotional tone it expresses. Its animation sits behind the metallic
-porthole beside the conversation.
+**Give the conversation a visual presence.** Enable [Mood Pulse](#mood-pulse--hal)
+and choose the original mandala or the HAL-inspired core. Both use the same
+expressive visual signals beside the conversation.
 
 **Make the workspace yours.** Click web and local-file links, browse the
 retractable conversation library, and choose what to show with **Display**.
@@ -149,20 +196,12 @@ Earlier walkthroughs cover the general workflow. Their interface predates the la
 - [▶ First launch — set up your workspace in 50 seconds](https://github.com/sebast242-creator/ShaetherLm/blob/main/ShaetherLm_First_Launch.mp4)
 - [▶ Application demonstration](https://github.com/sebast242-creator/ShaetherLm/blob/main/Demo%20SheatherLm.mp4)
 
-<details>
-<summary>Explore Mood Pulse</summary>
-
-<img src="images/moodpulse wonder joy--- playfull.png" alt="Mood Pulse during a tool action" width="180">
-<img src="images/moodpulse thinking2.png" alt="Mood Pulse in a calm, attentive state" width="180">
-<img src="images/moodpulse thinking.png" alt="Mood Pulse in a playful, joyful state" width="180">
-
-</details>
 
 ## Quick start
 
 1. [Install from Microsoft Store](https://apps.microsoft.com/store/detail/9N9F1X8LKFG0?cid=DevShareMCLPCS), or [download the portable EXE](https://github.com/sebast242-creator/ShaetherLm/releases/latest) and launch it directly.
 2. Open **Settings → Connection**, choose your engine or API provider, and configure a model.
-3. Choose a **Workspace** folder for the assistant's files and projects. For Strata, select its folder and click **Start Strata**.
+3. Choose a **Workspace** folder for the assistant's files and projects.
 4. Save your settings, start a conversation, or attach a document. Enable **Agent** for multi-step work.
 5. Open **Memory** to manage checkpoints and long-term memories.
 
@@ -172,7 +211,7 @@ Earlier walkthroughs cover the general workflow. Their interface predates the la
 - [Guide utilisateur français (PDF)](ShaetherLm_V1_Guide_FR.pdf)
 
 Both guides are accessible from Settings. They cover the general workflow;
-the V1.1 additions are described above.
+the V1.1 additions, including HAL controls, are described on this page.
 
 ## Choose your engine
 
@@ -271,6 +310,6 @@ services retain their own licenses and terms.
 
 ---
 
-**Version 1.1** · README updated November 18, 2026.
+**Version 1.1** · README updated November 21, 2026.
 
 © Sébast242 · [Contact](mailto:shaetherlm@gmail.com)
