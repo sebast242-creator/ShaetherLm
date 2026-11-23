@@ -81,10 +81,12 @@ glow that responds to the existing mood and activity signals.
   <tr>
     <th>Mood Pulse · original mandala</th>
     <th>Mood Pulse · HAL visual mode</th>
+    <th>Mood Pulse &middot; joy, tenderness and attentiveness</th>
   </tr>
   <tr>
     <td align="center"><a href="images/moodpulse%20thinking2.png"><img src="images/moodpulse%20thinking2.png" alt="Mood Pulse mandala behind the brushed-metal glass porthole" width="280"></a></td>
     <td align="center"><a href="images/moodpulse%20mode%20HAL.png"><img src="images/moodpulse%20mode%20HAL.png" alt="Mood Pulse HAL mode with a luminous yellow centre and soft red glow inside the metallic porthole" width="280"></a></td>
+    <td align="center"><a href="images/mood%20pulse%20-%20joie%20tendresse%20attentive.png"><img src="images/mood%20pulse%20-%20joie%20tendresse%20attentive.png" alt="Mood Pulse mandala expressing joy, tenderness and attentiveness" width="280"></a></td>
   </tr>
 </table>
 
