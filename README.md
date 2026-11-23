@@ -1,12 +1,12 @@
 # ShaetherLM 1.1
 
+ShaetherLM is an AI workspace for Windows. Chat with a local model or a cloud API,
+work with documents, and let an agent carry out multi-step tasks in a project folder.
+Dictate messages, listen to replies, and resume work from a checkpoint.
+
 ## Run a 125B model locally on a 16 GB GPU.
 
 **Qwen3.8-Flash-Next 125B MoE (Qwen4-exp) · Gyro-S · Strata**
-
-A Windows workspace for conversation, agent tools, voice, and memory.
-Run local models or connect a cloud API, give your assistant a project folder,
-and pick up the thread across sessions.
 
 **V1.1 brings native Strata integration, clearer memory and resume controls,
 and a brushed-metal interface with Mood Pulse and its new HAL visual mode.**
