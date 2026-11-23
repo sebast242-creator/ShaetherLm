@@ -8,10 +8,10 @@ Dictate messages, listen to replies, and resume work from a checkpoint.
 
 **Qwen3.8-Flash-Next 125B MoE (Qwen4-exp) · Gyro-S · Strata**
 
-**V1.1 brings native Strata integration, clearer memory and resume controls,
-and a brushed-metal interface with Mood Pulse and its new HAL visual mode.**
+**ShaetherLM 1.2 adds a session picker, detailed Strata diagnostics, and
+updated French and English guides. The brushed-metal interface includes Mood Pulse and HAL mode.**
 
-**[Get it from Microsoft Store](https://apps.microsoft.com/store/detail/9N9F1X8LKFG0?cid=DevShareMCLPCS)** · **[Download the portable Windows EXE](https://github.com/sebast242-creator/ShaetherLm/releases/latest)** · **[Get the Strata + Gyro-S kit](https://github.com/sebast242-creator/ShaetherLm/releases/latest/download/ShaetherLm_Strata_Kit_v1.1_0.2.13.zip)**
+**[Get it from Microsoft Store](https://apps.microsoft.com/store/detail/9N9F1X8LKFG0?cid=DevShareMCLPCS)** · **[Download the portable Windows EXE](https://github.com/sebast242-creator/ShaetherLm/releases/latest)** · **[Get the Strata + Gyro-S kit](https://github.com/sebast242-creator/ShaetherLm/releases/download/v1.0.0/ShaetherLm_Strata_Kit_v1.2_0.2.20.zip)**
 
 **Your assistant. Your machine. Your files.**
 
@@ -19,7 +19,7 @@ Free · Windows 10/11 · Multilingual chat · Local models and cloud APIs
 
 ![Run a 125B model locally with 16 GB VRAM using ShaetherLM and Strata](images/125b%20locally%2016gb%20vram.png)
 
-[What's new in V1.1](#whats-new-in-v11) · [Mood Pulse & HAL](#mood-pulse--hal) · [125B local setup](#125b-on-your-pc--strata--gyro-s) · [Quick start](#quick-start) · [User guides](#user-guides)
+[What's new in 1.1 and 1.2](#whats-new-in-11-and-12) · [Mood Pulse & HAL](#mood-pulse--hal) · [125B local setup](#125b-on-your-pc--strata--gyro-s) · [Quick start](#quick-start) · [User guides](#user-guides)
 
 Read a document together. Let your agent investigate a subject, improve a project,
 write and run code, or carry a task through several steps. Keep useful memories
@@ -30,9 +30,9 @@ reach. **Mood Pulse** gives the conversation an animated presence behind its
 glass porthole — with a new **HAL-inspired red-and-gold core** you can switch
 on when the assistant is idle.
 
-![ShaetherLM 1.1 with its brushed-metal interface, animated Mood Pulse porthole, conversation library, and Memory and Display controls](https://github.com/sebast242-creator/ShaetherLm/releases/download/v1.0.0/ShaetherLm.Workspace.png)
+![ShaetherLM with its brushed-metal interface, animated Mood Pulse porthole, conversation library, and Memory and Display controls](https://github.com/sebast242-creator/ShaetherLm/releases/download/v1.0.0/ShaetherLm.Workspace.png)
 
-## What's new in V1.1
+## What's new in 1.1 and 1.2
 
 ### Run a larger local model with Strata
 
@@ -41,11 +41,11 @@ Qwen3.8-Flash-Next 125B MoE (Qwen4-exp)** into ShaetherLM. The reference PC uses
 an **RTX 5070 Ti with 16 GB VRAM, 32 GB system RAM, and an SSD**: the engine
 uses all three, rather than fitting the entire model into VRAM.
 
-The optional setup kit downloads and prepares the engine and model in your
-chosen folder. Start Strata from **Settings → Connection**, watch the loading
+The optional **Strata 0.2.20 + Gyro-S kit** downloads and prepares the engine
+and model in your chosen folder. Start Strata from **Settings → Connection**, watch the loading
 indicator turn solid green, and follow the model in the Strata monitor.
 
-[Get the Strata + Gyro-S kit](https://github.com/sebast242-creator/ShaetherLm/releases/latest/download/ShaetherLm_Strata_Kit_v1.1_0.2.13.zip) · [Reference setup](#125b-on-your-pc--strata--gyro-s)
+[Get the Strata + Gyro-S kit](https://github.com/sebast242-creator/ShaetherLm/releases/download/v1.0.0/ShaetherLm_Strata_Kit_v1.2_0.2.20.zip) · [Reference setup](#125b-on-your-pc--strata--gyro-s)
 
 ### Pick up the thread more easily
 
@@ -64,8 +64,9 @@ indicator turn solid green, and follow the model in the Strata monitor.
 - **Mood Pulse, now with HAL.** Switch between the original mandala and a
   HAL-inspired luminous core with a click on the glass while the assistant
   is idle. [See both visual modes below](#mood-pulse--hal).
-- **Clearer status.** The **Context** button shows average Strata generation
-  speed, and **Memory** stays beside the conversation controls.
+- **Strata diagnostics.** The **Context** button shows average generation
+  speed. **Memory → Engine diagnostics** shows the engine version, the latest
+  generation speed, and the context capacities reported by ShaetherLM and Strata.
 - **Completion alerts your way.** Enable the completion sound, the “Ready”
   voice, both, or neither.
 
@@ -112,19 +113,20 @@ this configuration possible. The 16 GB figure refers to the GPU's VRAM.
 | GPU | NVIDIA RTX 5070 Ti · 16 GB VRAM |
 | System memory | 32 GB RAM |
 | Storage | Local SSD · allow at least 80 GiB free for a fresh setup |
-| Context window | 115K tokens |
-| Maximum response budget | 25K tokens, including reasoning |
+| Context window | 120K tokens |
+| Maximum response budget | 19K tokens, including reasoning |
 | Drafting / Reasoning | Auto / Max |
 | Memory settings | 300 MiB VRAM reserve · 16 GiB expert cache · 3 GiB RAM reserve |
 
-These are the project's tested reference settings. Available memory, context
-length, and workload affect performance.
+The hardware shown is the project's reference setup. The context and response
+budgets are the V1.2 defaults. Available memory, context length, and workload
+affect performance.
 
 ![Strata monitor running Gyro-S on an RTX 5070 Ti with 16 GB VRAM](images/Strata%20overview%20with%205070ti.png)
 
 *Strata running on the reference PC. Open the image to inspect the monitor at full size.*
 
-1. [Download the kit](https://github.com/sebast242-creator/ShaetherLm/releases/latest/download/ShaetherLm_Strata_Kit_v1.1_0.2.13.zip), extract it, and run **INSTALL.cmd**.
+1. [Download the kit](https://github.com/sebast242-creator/ShaetherLm/releases/download/v1.0.0/ShaetherLm_Strata_Kit_v1.2_0.2.20.zip), extract it, and run **INSTALL.cmd**.
 2. Choose a folder on a local SSD and let the kit download and prepare Strata and Gyro-S. The model download is approximately **59 GB**.
 3. Open **Settings → Connection → Strata** in ShaetherLM and select the prepared folder.
 4. Click **Start Strata**, wait for the solid green indicator, then select **Save & Apply**.
@@ -144,7 +146,7 @@ length, and workload affect performance.
 
 The kit includes English and French instructions. **VERIFY.cmd** checks its files
 and profile. The small ZIP contains the download assistant; the engine and model
-are downloaded separately. [Check the kit SHA-256](https://github.com/sebast242-creator/ShaetherLm/releases/latest/download/ShaetherLm_Strata_Kit_v1.1_0.2.13.zip.sha256).
+are downloaded separately. [Check the kit SHA-256](https://github.com/sebast242-creator/ShaetherLm/releases/download/v1.0.0/ShaetherLm_Strata_Kit_v1.2_0.2.20.zip.sha256).
 
 Explore the [Gyro model card](https://huggingface.co/agentionai/Qwen3.8-Flash-Next-Gyro-GGUF), [Strata project](https://github.com/Niko1221/Strata), and [ShaetherLM setup page](https://huggingface.co/spaces/sebast242/ShaetherLm).
 
@@ -207,11 +209,11 @@ Earlier walkthroughs cover the general workflow. Their interface predates the la
 
 ## User guides
 
-- [English user guide (PDF)](ShaetherLm_V1_Guide_EN.pdf)
-- [Guide utilisateur français (PDF)](ShaetherLm_V1_Guide_FR.pdf)
+- [English user guide (PDF)](ShaetherLm_V1.2_Guide_EN.pdf)
+- [Guide utilisateur français (PDF)](ShaetherLm_V1.2_Guide_FR.pdf)
 
-Both guides are accessible from Settings. They cover the general workflow;
-the V1.1 additions, including HAL controls, are described on this page.
+Both illustrated V1.2 guides are available from **Settings**. They cover
+Strata setup, session recovery, engine diagnostics, and Mood Pulse with HAL mode.
 
 ## Choose your engine
 
@@ -243,7 +245,7 @@ and a CUDA 13.3-compatible NVIDIA driver.
 - Hardware suited to your selected model, quantization, and context size.
 - Optional Groq credentials for image analysis and voice input. External services, scripts, and utilities may require their own setup.
 
-New Strata profiles use the reference **115K context / 25K response** settings
+New Strata profiles use the reference **120K context / 19K response** settings
 above, with **Auto drafting** and **Max reasoning**. Existing saved settings are
 preserved. Context and response sliders are available for local engines and
 API profiles. The selected response budget applies to both chat and Agent mode,
@@ -310,6 +312,6 @@ services retain their own licenses and terms.
 
 ---
 
-**Version 1.1** · README updated November 21, 2026.
+**Version 1.2** · README updated November 24, 2026.
 
 © Sébast242 · [Contact](mailto:shaetherlm@gmail.com)
