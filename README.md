@@ -1,4 +1,4 @@
-# ShaetherLM 1.1
+# ShaetherLM 1.2
 
 ShaetherLM is an AI workspace for Windows. Chat with a local model or a cloud API,
 work with documents, and let an agent carry out multi-step tasks in a project folder.
